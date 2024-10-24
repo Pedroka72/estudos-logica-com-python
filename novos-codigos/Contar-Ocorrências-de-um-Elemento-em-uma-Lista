@@ -1,0 +1,6 @@
+# Escreva um programa que conta quantas vezes um determinado elemento aparece em uma lista.
+
+numeros = [1, 2, 2, 3, 4, 2, 5]
+elemento = 2
+contagem = numeros.count(elemento)
+print(f"O número {elemento} aparece {contagem} vezes na lista.")

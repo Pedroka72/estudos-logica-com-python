@@ -1,0 +1,5 @@
+# Escreva um programa que remova os elementos duplicados de uma lista.
+
+numeros = [1, 2, 2, 3, 4, 4, 5]
+sem_duplicatas = list(set(numeros))
+print(f"Lista sem duplicatas: {sem_duplicatas}")

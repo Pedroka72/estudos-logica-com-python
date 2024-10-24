@@ -1,0 +1,14 @@
+# Escreva um programa que percorre uma lista e conta quantos números são positivos e quantos são negativos.
+
+numeros = [4, -3, 2, -8, 0, 10, -1]
+positivos = 0
+negativos = 0
+
+for num in numeros:
+    if num > 0:
+        positivos += 1
+    elif num < 0:
+        negativos += 1
+
+print(f"Números positivos: {positivos}")
+print(f"Números negativos: {negativos}")
