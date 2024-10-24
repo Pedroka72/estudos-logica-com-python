@@ -1,0 +1,7 @@
+# Escreva um programa que encontre o maior e o menor elemento de uma lista de números.
+
+numeros = [10, 5, 20, 3, 15]
+maior = max(numeros)
+menor = min(numeros)
+print(f"O maior número é: {maior}")
+print(f"O menor número é: {menor}")

@@ -1,0 +1,7 @@
+# Escreva um programa que receba uma lista de números e retorne a soma de todos os elementos.
+
+numeros = [3, 5, 7, 10]
+soma = 0
+for num in numeros:
+    soma += num
+print("A soma é:", soma)

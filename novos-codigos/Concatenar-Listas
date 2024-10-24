@@ -1,0 +1,6 @@
+# Escreva um programa que concatena duas listas e exibe o resultado.
+
+lista1 = [1, 2, 3]
+lista2 = [4, 5, 6]
+lista_concatenada = lista1 + lista2
+print(f"Lista concatenada: {lista_concatenada}")

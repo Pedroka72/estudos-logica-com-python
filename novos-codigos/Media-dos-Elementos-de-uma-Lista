@@ -1,0 +1,6 @@
+# Escreva um programa que calcula a média dos números contidos em uma lista.
+
+numeros = [10, 20, 30, 40, 50]
+soma = sum(numeros)
+media = soma / len(numeros)
+print(f"A média dos números da lista é: {media}")
